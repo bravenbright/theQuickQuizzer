@@ -1,0 +1,47 @@
+
+#acontainer {
+    display: flex;
+    border: 1%;
+    
+}
+
+header {
+    background-color: #ecd2a9 ;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#justDoIt {
+    background-image: url(./images/boratGreatSess.jpg) ;
+    width: 200px;
+    height: 150px;
+    background-size: 300px 150px;
+    border-radius: 20%;
+}
+
+#justDoIt:hover {
+    background-image: url(./images/justdoitshia.jpg); 
+   border-radius: 20%;
+}
+
+h4 {
+    justify-content: center;
+    border-radius: 15px;
+    background-color:  #ecd2a9 ;
+
+}
+span {
+    background-color: #ecd2a9 ;
+}
+
+body {
+    background-image: url("./images/question-mark-pattern.webp");
+}
+
+div {
+    background-color: #ecd2a9;
+}
+
+#question-section {
+    display: none;
+}

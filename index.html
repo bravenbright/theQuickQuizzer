@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./assets/js.script"></script>
+    <script defer src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Quiz App</title>
 </head>
-<header>
+<header id="acontainer">
+    <a id='justDoIt' href="https://www.youtube.com/watch?v=ZXsQAXx_ao0">
+        
+    </a>
     <h1>The Quizk The quickest Quiz in your back-pocket</h1>
+    
 </header>
 
 <body>
-    <div id="bContainer">
 
-    <button id="startBtn">Start Button for to Start the quiz, Baby! ></button> 
-
-
-
+    <h4>Time: <span id="time"></span></h4>
+    <div id="scores"></div>
+    <div id="main">
+    <section id="first-page">
+        <button id="startBtn">Start Button for to Start the quiz, Baby! ></button> 
+        <h2 id="introdouction">You cannot start this! This is the quiz of coding, for your studying of the computer coding. 
+            first you press the start button. Then answer the question by selecting new button, each wrong answer take away 10 seconds, 
+            if it reaches the zero you lose because you cannot have this!</h2>
+    </section>
+    <section id="question-section">
+        <h1 id="question"></h1>
+        <div id="choices"></div>
+    </section>
+        
     </div>
-    <div id="questionSection" class="form">
-        <ul>
-            <li>What is a what is a what my </li>
-                <button> I an  right asnwer</button>
-                <button> I am an answer</button>
-                <button>I an asnwer</button>
-                <button>I an asnwer</button>
-            <li>What is a what is a what my </li>
-            <li>What is a what is a what my </li>
-            <li>What is a what is a what my </li>
-        </ul>
+ 
 
-    </div>
+    
 
 
 
